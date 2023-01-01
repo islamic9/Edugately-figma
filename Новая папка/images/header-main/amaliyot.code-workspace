@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "amaliyot",
+			"path": "../.."
+		},
+		{
+			"name": "images",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "amaliyot"
+	}
+}

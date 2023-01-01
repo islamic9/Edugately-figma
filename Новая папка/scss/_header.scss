@@ -1,0 +1,732 @@
+
+
+.header__inner-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    margin-right: 62px;
+}
+
+.nav__menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu__item a {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #919191;
+}
+
+.item__active{
+    color: #000000;
+}
+
+// header right
+
+.header__right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-box{
+    display: flex;
+    align-items: center;
+    background: #FF6060;
+    border: none;
+    padding: 2px 0;
+    text-indent: 10px;
+    border-radius: 15px 0 0 15px;
+    .header__search-icon{
+        padding-left: 7px;
+    }
+    .input-text{
+        font-family: 'Geometria';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+}
+
+.header__input{
+    background: #FF6060;
+    border: none;
+}
+
+// header hero section
+
+.header__hero-section{
+    display: flex;
+    align-items: center;
+    padding-top: 140px;
+}
+
+.header__hero-left{
+  
+    max-width: 500px;
+
+    .header__title{
+        font-family: 'Geometria-900';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 92.8%;
+        text-transform: uppercase;
+        color: #2E2E2E;
+        padding-bottom: 41px;
+
+        .title__span{
+            color: #FFDC60;           
+        }
+    }
+
+    .header__text{
+        font-family:'Geometria';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 110%;
+        color: #2E2E2E;
+        padding-bottom: 40px;
+    }
+
+    .header__strong{
+        font-family: 'Geometria-700';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #2E2E2E;
+        padding-bottom: 64px;
+    }
+
+    .header__btn-wrapper{
+        margin-top: 14px;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .header__btn{
+        display: flex;
+        align-items: center;
+        background: #FF6060;
+        border: none;
+        color: #fff;
+        padding: 8px 62px;
+        text-indent: 10px;
+        border-radius:0 15px 15px 0;
+    }
+}
+
+
+// main 
+
+
+// search section
+
+.search__background{
+    background-image: url("../images/desc-images/main-back.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 200px;
+}
+
+.search__title{
+    padding-bottom: 14px;
+    font-family: 'Geometria-900';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 92.8%;
+    color: #FFf;
+
+    .search__span{
+        color: #FFDC60;
+    }
+
+    
+}
+
+form{
+    position: relative;
+}
+
+.search__inp{
+    position: relative;
+    padding: 8px 90px 8px 15px;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    margin-bottom: 20px;
+    font-family: 'Geometria-700';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    color: #070707;
+}
+
+.strelka{
+    position: absolute;
+    right: -60px;
+    top: 14px;
+}
+
+.inp--active{
+    background: #FF6060;
+    
+}
+
+.inp__search-icon{
+   position: absolute;
+   top: 170px;
+   right: 59px;
+}
+
+.section__search{
+    width: 200px;
+}
+
+
+// work section
+
+
+.work-inner__title{
+    text-align: center;
+    padding-bottom: 55px;
+    font-family: 'Geometria-900';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 92.8%;
+    color: #2E2E2E;
+}
+
+.work-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.work__inner-box { 
+    display: flex;
+    flex-direction: column;
+}
+
+ .wrapper__img{
+    margin-top: 16px;
+    border-radius:85px 85px 0 0;
+    text-align: center;
+    justify-content: center;
+    width: 160px;
+    height: 120px;
+    background: #FF6060;
+}
+
+.box__span{
+    padding-top: 17px;
+    font-family: 'Geometria-900';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+    color: #FF6060;
+}
+
+.box--yellow{
+    color: #FFDC60;
+}
+
+.box__text{
+    padding-bottom: 17px;
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    text-align: center;
+    color: #2E2E2E;
+}
+
+.box__img{
+    margin: 28px auto;
+}
+
+.wrapper--active{
+    border-radius: 0 0 85px 85px;
+    background: #FFDC60;
+}
+
+
+// sepcial section
+
+
+.special__title{
+    font-family: 'Geometria-900';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 92.8%;
+    text-align: center;
+    color: #2E2E2E;
+    padding: 250px 0 56px 0;
+}
+
+.special__list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.specila-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 285px;
+    height: 148px;
+}
+
+.item__text{
+    font-family: 'Geometria-900';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFDC60;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.34);
+    width: 135px;
+}
+
+.specila__item--active{
+    color: #FF6060;
+}
+
+.special__box{
+   
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #FFDC60;
+}
+
+.special__img{
+    display: block;
+    margin: 7px auto;
+}
+
+.special__box--active{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #FF6060;
+}
+
+// background
+
+.chairs{
+    background-image: url("../images/img-bottom-space/busness-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chairs img{
+    margin-top: 17px;
+}
+
+.russian{
+    background-image: url("../images/img-bottom-space/russian-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.russian p{
+    width: 133px;
+}
+
+.hotel{
+    background-image: url("../images/img-bottom-space/hotel-busness.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hotel img{
+    margin-top: 12px;
+}
+
+.comp{
+    background-image: url("../images/img-bottom-space/it-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.comp img{
+    margin-top: 13px;
+}
+
+.finans{
+    background-image: url("../images/img-bottom-space/finans-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.finans img{
+    margin: 9px 15px;
+}
+
+.finans > img{
+    margin: 10px 0 0 14px;
+}
+
+.diplomatiya{
+    background-image: url("../images/img-bottom-space/diplomatiya-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.literature{
+    background-image: url("../images/img-bottom-space/litrature-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.literature img{
+    margin: 13px 16px;
+}
+
+.dori{
+    background-image: url("../images/img-bottom-space/hospital-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dori img{
+    margin-top: 15px;
+}
+
+
+// number section
+
+
+.number__inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number__img{
+    padding-top: 145px;
+}
+
+.number__title{
+    text-align: right;
+    padding: 180px 0 72px 0;
+    font-family: 'Geometria-900';
+    font-size: 40px;
+    line-height: 92.8%;
+    color: #2E2E2E;
+}
+
+.number__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 55px;
+}
+
+.number__strong{
+    display: block;
+    font-family: 'Geometria-900';
+    font-size: 20px;
+    line-height: 110%;
+    text-align: right;
+    color: #FF6060;
+}
+
+.number__text{
+    padding-top: 4px;
+    font-family: 'Geometria-600';
+    font-size: 15px;
+    line-height: 100%;
+    text-align: right;
+    color: #2E2E2E;
+}
+
+.number__span{
+    color: #FF6060;
+    font-family: 'Geometria-900';
+}
+
+.number__span-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFDC60;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.number__back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 55px;
+    background: #FF6060;
+    border-radius: 45px 0 0 45px;
+}
+
+.back--active{
+    width: 75px;
+}
+
+.number__btn{
+    margin-left: 213px;
+    background: #FF6060;
+    border: none;
+    color: #fff;
+    padding: 8px 62px;
+    text-indent: 10px;
+    border-radius: 15px 0 0 15px ;
+}
+
+
+//about student section
+
+
+.about__title-box{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__boxes-wrapper{
+    padding-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__title{
+    padding: 250px 0 80px 0;
+    width: 320px;
+    font-family: 'Geometria-900';
+    font-size: 40px;
+    line-height: 92.8%;
+    text-align: center;
+    color: #2E2E2E;
+}
+
+.about__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.box__desc{
+    width: 350px;
+}
+
+.about__strong{
+    display: block;
+    font-family: 'Geometria-900';
+    font-size: 20px;
+    line-height: 110%;
+    color: #2E2E2E;
+}
+
+.about__span{
+    font-family: 'Geometria-900';
+    font-size: 14px;
+    line-height: 110%;
+    color: #2E2E2E;
+}
+
+.about__text{
+    font-family: 'Geometria';
+    font-size: 14px;
+    line-height: 140%;
+    color: #2E2E2E;
+}
+
+.img-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+// service section
+
+
+.service__inner{
+    padding-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service__desc{
+    padding: 25px 25px ;
+    max-width: 480px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 28px rgba(82, 94, 99, 0.2);
+    border-radius: 20px;
+}
+
+.service__wrapper-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+.service__title{
+    font-family: 'Geometria-900';
+    font-size: 20px;
+    line-height: 110%;
+    color: #2E2E2E;
+}
+
+.service__inp-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service__text{
+    font-family: 'Geometria-600';
+    font-size: 16px;
+    line-height: 110%;
+    color: #2E2E2E;
+    margin: 0 30px 15px 0 ;
+}
+
+.service__btn-wrapper{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service__input{
+    padding: 3px 18px;
+    text-indent: 5px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 28px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.service__btn{
+    color: white;
+    border: none;
+    padding: 3px 68px;
+    background: #FF6060;
+    box-shadow: 0px 1px 28px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+
+// footer
+
+
+.footer{
+    margin-top: 250px;
+    background: #222222;
+}
+
+.footer__inner{
+    padding: 73px 0 98px 0;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__text{
+    width: 221px;
+    padding-bottom: 14px;
+    font-family: 'Geometria-900';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.footer__span{
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.footer__img-back{
+    width: 60px;
+    height: 60px;
+    background: #FFDC60;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+
+.icon__text{
+    padding-bottom: 5px;
+
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.footer__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__icon{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__image{
+    margin: 15px 17px;
+}
+
+
+
+
+
+
+
